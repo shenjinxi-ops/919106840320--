@@ -1351,7 +1351,8 @@ void Widget::on_length_pushButton_2_clicked()
     double dou = str.toDouble();
     int index_1 = ui->length_comboBox_1->currentIndex();
     int index_2 = ui->length_comboBox_2->currentIndex();
-    switch (index_2) {
+    switch (index_2)
+    {
     case 0:
     {
         if(index_1 == 0)
@@ -1410,14 +1411,14 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 1)        // 1米 = 英寸
-            dou = dou * 2.205;
-        if(index_1 == 2)        // 1米 = 英尺
-            dou = dou * 35.274;
-        if(index_1 == 3)        // 1米 = 码
-            dou = dou * 0.000984;
-        if(index_1 == 4)        // 1米 = 英里
-            dou = dou * 0.001102;
+        if(index_1 == 1)        // 1米 = 39.3700787英寸
+            dou = dou * 39.3700787;
+        if(index_1 == 2)        // 1米 = 3.2808399英尺
+            dou = dou * 3.2808399;
+        if(index_1 == 3)        // 1米 = 1.0936133码
+            dou = dou * 1.0936133;
+        if(index_1 == 4)        // 1米 = 0.0006214英里
+            dou = dou * 0.0006214;
         if(index_1 == 5)       //以下为市值
         {
             dou = dou * 0;
@@ -1426,22 +1427,22 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 6)        // 1米 = 市里
-            dou = dou * 15432.358;
-        if(index_1 == 7)        // 1米 = 市引
-            dou = dou * 4877.561;
-        if(index_1 == 8)        // 1米 = 市丈
-            dou = dou * 4877.561;
-        if(index_1 == 9)        // 1米 = 市尺
-            dou = dou * 0.02;
-        if(index_1 == 10)       // 1米 = 市寸
-            dou = dou * 2;
-        if(index_1 == 11)       // 1米 = 市分
-            dou = dou * 20;
-        if(index_1 == 12)       // 1米 = 市厘
-            dou = dou * 200;
-        if(index_1 == 13)       // 1米 = 市毫
-            dou = dou * 20000;
+        if(index_1 == 6)        // 1米 = 0.002市里
+            dou = dou * 0.002;
+        if(index_1 == 7)        // 1米 = 0.03市引
+            dou = dou * 0.03;
+        if(index_1 == 8)        // 1米 = 0.3市丈
+            dou = dou * 0.3;
+        if(index_1 == 9)        // 1米 = 3市尺
+            dou = dou * 3;
+        if(index_1 == 10)       // 1米 = 30市寸
+            dou = dou * 30;
+        if(index_1 == 11)       // 1米 = 300市分
+            dou = dou * 300;
+        if(index_1 == 12)       // 1米 = 3000市厘
+            dou = dou * 3000;
+        if(index_1 == 13)       // 1米 = 30000市毫
+            dou = dou * 30000;
 
         str = QString::number(dou);
         ui->length_lineEdit_1->setText(str);
@@ -1457,14 +1458,14 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 1)        // 1 = 英寸
-            dou = dou * 2.205;
-        if(index_1 == 2)        // 1 = 英尺
-            dou = dou * 35.274;
-        if(index_1 == 3)        // 1 = 码
-            dou = dou * 0.000984;
-        if(index_1 == 4)        // 1 = 英里
-            dou = dou * 0.001102;
+        if(index_1 == 1)        // 1海里 = 72913.3858268英寸
+            dou = dou * 72913.3858268;
+        if(index_1 == 2)        // 1海里 = 6076.1154856英尺
+            dou = dou * 6076.1154856;
+        if(index_1 == 3)        // 1海里 = 2025.3718285码
+            dou = dou * 2025.3718285;
+        if(index_1 == 4)        // 1海里 = 1.1507794英里
+            dou = dou * 1.1507794;
         if(index_1 == 5)       //以下为市值
         {
             dou = dou * 0;
@@ -1473,22 +1474,22 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 6)        // 1 = 市里
-            dou = dou * 15432.358;
-        if(index_1 == 7)        // 1 = 市引
-            dou = dou * 4877.561;
-        if(index_1 == 8)        // 1 = 市丈
-            dou = dou * 4877.561;
-        if(index_1 == 9)        // 1 = 市尺
-            dou = dou * 0.02;
-        if(index_1 == 10)       // 1 = 市寸
-            dou = dou * 2;
-        if(index_1 == 11)       // 1 = 市分
-            dou = dou * 20;
-        if(index_1 == 12)       // 1 = 市毫
-            dou = dou * 200;
-        if(index_1 == 13)       // 1 = 市厘
-            dou = dou * 20000;
+        if(index_1 == 6)        // 1海里 = 3.704市里
+            dou = dou * 3.704;
+        if(index_1 == 7)        // 1海里 = 55.56市引
+            dou = dou * 55.56;
+        if(index_1 == 8)        // 1海里 = 555.6市丈
+            dou = dou * 555.6;
+        if(index_1 == 9)        // 1海里 = 5556市尺
+            dou = dou * 5556;
+        if(index_1 == 10)       // 1海里 = 55560市寸
+            dou = dou * 55560;
+        if(index_1 == 11)       // 1海里 = 555600市分
+            dou = dou * 555600;
+        if(index_1 == 12)       // 1海里 = 5556000市厘
+            dou = dou * 5556000;
+        if(index_1 == 13)       // 1海里 = 55560000市毫
+            dou = dou * 55560000;
 
 
         str = QString::number(dou);
@@ -1505,14 +1506,14 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 1)        // 1 = 英寸
-            dou = dou * 2.205;
-        if(index_1 == 2)        // 1 = 英尺
-            dou = dou * 35.274;
-        if(index_1 == 3)        // 1 = 码
-            dou = dou * 0.000984;
-        if(index_1 == 4)        // 1 = 英里
-            dou = dou * 0.001102;
+        if(index_1 == 1)        // 1分米 = 3.9370079英寸
+            dou = dou * 3.9370079;
+        if(index_1 == 2)        // 1分米 = 0.328084英尺
+            dou = dou * 0.328084;
+        if(index_1 == 3)        // 1分米 = 0.1093613码
+            dou = dou * 0.1093613;
+        if(index_1 == 4)        // 1分米 = 0.0000621英里
+            dou = dou * 0.0000621;
         if(index_1 == 5)       //以下为市值
         {
             dou = dou * 0;
@@ -1521,22 +1522,22 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 6)        // 1 = 市里
-            dou = dou * 15432.358;
-        if(index_1 == 7)        // 1 = 市引
-            dou = dou * 4877.561;
-        if(index_1 == 8)        // 1 = 市丈
-            dou = dou * 4877.561;
-        if(index_1 == 9)        // 1 = 市尺
-            dou = dou * 0.02;
-        if(index_1 == 10)       // 1 = 市寸
-            dou = dou * 2;
-        if(index_1 == 11)       // 1 = 市分
-            dou = dou * 20;
-        if(index_1 == 12)       // 1 = 市毫
-            dou = dou * 200;
-        if(index_1 == 13)       // 1 = 市厘
-            dou = dou * 20000;
+        if(index_1 == 6)        // 1分米 = 0.0002市里
+            dou = dou * 0.0002;
+        if(index_1 == 7)        // 1分米 = 0.003市引
+            dou = dou * 0.003;
+        if(index_1 == 8)        // 1分米 = 0.03市丈
+            dou = dou * 0.03;
+        if(index_1 == 9)        // 1分米 = 0.3市尺
+            dou = dou * 0.3;
+        if(index_1 == 10)       // 1分米 = 3市寸
+            dou = dou * 3;
+        if(index_1 == 11)       // 1分米 = 30市分
+            dou = dou * 30;
+        if(index_1 == 12)       // 1分米 = 300市毫
+            dou = dou * 300;
+        if(index_1 == 13)       // 1分米 = 3000市厘
+            dou = dou * 3000;
 
 
         str = QString::number(dou);
@@ -1553,14 +1554,14 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 1)        // 1 = 英寸
-            dou = dou * 2.205;
-        if(index_1 == 2)        // 1 = 英尺
-            dou = dou * 35.274;
-        if(index_1 == 3)        // 1 = 码
-            dou = dou * 0.000984;
-        if(index_1 == 4)        // 1 = 英里
-            dou = dou * 0.001102;
+        if(index_1 == 1)        // 1厘米 = 0.39370079英寸
+            dou = dou * 0.39370079;
+        if(index_1 == 2)        // 1厘米 = 0.0328084英尺
+            dou = dou * 0.0328084;
+        if(index_1 == 3)        // 1厘米 = 0.01093613码
+            dou = dou * 0.01093613;
+        if(index_1 == 4)        // 1厘米 = 0.00000621英里
+            dou = dou * 0.00000621;
         if(index_1 == 5)       //以下为市值
         {
             dou = dou * 0;
@@ -1569,28 +1570,29 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 6)        // 1 = 市里
-            dou = dou * 15432.358;
-        if(index_1 == 7)        // 1 = 市引
-            dou = dou * 4877.561;
-        if(index_1 == 8)        // 1 = 市丈
-            dou = dou * 4877.561;
-        if(index_1 == 9)        // 1 = 市尺
-            dou = dou * 0.02;
-        if(index_1 == 10)       // 1 = 市寸
-            dou = dou * 2;
-        if(index_1 == 11)       // 1 = 市分
-            dou = dou * 20;
-        if(index_1 == 12)       // 1 = 市毫
-            dou = dou * 200;
-        if(index_1 == 13)       // 1 = 市厘
-            dou = dou * 20000;
+        if(index_1 == 6)        // 1厘米 = 0.00002市里
+            dou = dou * 0.00002;
+        if(index_1 == 7)        // 1厘米 = 0.0003市引
+            dou = dou * 0.0003;
+        if(index_1 == 8)        // 1厘米 = 0.003市丈
+            dou = dou * 0.003;
+        if(index_1 == 9)        // 1厘米 = 0.03市尺
+            dou = dou * 0.03;
+        if(index_1 == 10)       // 1厘米 = 0.3市寸
+            dou = dou * 0.3;
+        if(index_1 == 11)       // 1厘米 = 3市分
+            dou = dou * 3;
+        if(index_1 == 12)       // 1厘米 = 30市毫
+            dou = dou * 30;
+        if(index_1 == 13)       // 1厘米 = 300市厘
+            dou = dou * 300;
 
 
         str = QString::number(dou);
         ui->length_lineEdit_1->setText(str);
     }
         break;
+
     case 5:
     {
         if(index_1 == 0)
@@ -1601,14 +1603,14 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 1)        // 1 = 英寸
-            dou = dou * 2.205;
-        if(index_1 == 2)        // 1 = 英尺
-            dou = dou * 35.274;
-        if(index_1 == 3)        // 1 = 码
-            dou = dou * 0.000984;
-        if(index_1 == 4)        // 1 = 英里
-            dou = dou * 0.001102;
+        if(index_1 == 1)        // 1毫米 = 0.039370079英寸
+            dou = dou * 0.039370079;
+        if(index_1 == 2)        // 1毫米 = 0.00328084英尺
+            dou = dou * 0.00328084;
+        if(index_1 == 3)        // 1毫米 = 0.001093613码
+            dou = dou * 0.001093613;
+        if(index_1 == 4)        // 1毫米 = 0.000000621英里
+            dou = dou * 0.000000621;
         if(index_1 == 5)       //以下为市值
         {
             dou = dou * 0;
@@ -1617,22 +1619,22 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 6)        // 1 = 市里
-            dou = dou * 15432.358;
-        if(index_1 == 7)        // 1 = 市引
-            dou = dou * 4877.561;
-        if(index_1 == 8)        // 1 = 市丈
-            dou = dou * 4877.561;
-        if(index_1 == 9)        // 1 = 市尺
-            dou = dou * 0.02;
-        if(index_1 == 10)       // 1 = 市寸
-            dou = dou * 2;
-        if(index_1 == 11)       // 1 = 市分
-            dou = dou * 20;
-        if(index_1 == 12)       // 1 = 市毫
-            dou = dou * 200;
-        if(index_1 == 13)       // 1 = 市厘
-            dou = dou * 20000;
+        if(index_1 == 6)        // 1毫米 = 0.000002市里
+            dou = dou * 0.000002;
+        if(index_1 == 7)        // 1毫米 = 0.00003市引
+            dou = dou * 0.00003;
+        if(index_1 == 8)        // 1毫米 = 0.0003市丈
+            dou = dou * 0.0003;
+        if(index_1 == 9)        // 1毫米 = 0.003市尺
+            dou = dou * 0.003;
+        if(index_1 == 10)       // 1毫米 = 0.03市寸
+            dou = dou * 0.03;
+        if(index_1 == 11)       // 1毫米 = 0.3市分
+            dou = dou * 0.3;
+        if(index_1 == 12)       // 1毫米 = 3市毫
+            dou = dou * 3;
+        if(index_1 == 13)       // 1毫米 = 30市厘
+            dou = dou * 30;
 
 
         str = QString::number(dou);
@@ -1649,14 +1651,14 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 1)        // 1 = 英寸
-            dou = dou * 2.205;
-        if(index_1 == 2)        // 1 = 英尺
-            dou = dou * 35.274;
-        if(index_1 == 3)        // 1 = 码
-            dou = dou * 0.000984;
-        if(index_1 == 4)        // 1 = 英里
-            dou = dou * 0.001102;
+        if(index_1 == 1)        // 1微米 = 0.000039370079英寸
+            dou = dou * 0.000039370079;
+        if(index_1 == 2)        // 1微米 = 0.00000328084英尺
+            dou = dou * 0.00000328084;
+        if(index_1 == 3)        // 1微米 = 0.000001093613码
+            dou = dou * 0.000001093613;
+        if(index_1 == 4)        // 1微米 = 0.000000000621英里
+            dou = dou * 0.000000000621;
         if(index_1 == 5)       //以下为市值
         {
             dou = dou * 0;
@@ -1665,22 +1667,22 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 6)        // 1 = 市里
-            dou = dou * 15432.358;
-        if(index_1 == 7)        // 1 = 市引
-            dou = dou * 4877.561;
-        if(index_1 == 8)        // 1 = 市丈
-            dou = dou * 4877.561;
-        if(index_1 == 9)        // 1 = 市尺
-            dou = dou * 0.02;
-        if(index_1 == 10)       // 1 = 市寸
-            dou = dou * 2;
-        if(index_1 == 11)       // 1 = 市分
-            dou = dou * 20;
-        if(index_1 == 12)       // 1 = 市毫
-            dou = dou * 200;
-        if(index_1 == 13)       // 1 = 市厘
-            dou = dou * 20000;
+        if(index_1 == 6)        // 1微米 = 0.000000002市里
+            dou = dou * 0.000000002;
+        if(index_1 == 7)        // 1微米 = 0.00000003市引
+            dou = dou * 0.00000003;
+        if(index_1 == 8)        // 1微米 = 0.0000003市丈
+            dou = dou * 0.0000003;
+        if(index_1 == 9)        // 1微米 = 0.000003市尺
+            dou = dou * 0.000003;
+        if(index_1 == 10)       // 1微米 = 0.00003市寸
+            dou = dou * 0.00003;
+        if(index_1 == 11)       // 1微米 = 0.0003市分
+            dou = dou * 0.0003;
+        if(index_1 == 12)       // 1微米 = 0.003市毫
+            dou = dou * 0.003;
+        if(index_1 == 13)       // 1微米 = 0.03市厘
+            dou = dou * 0.03;
 
 
         str = QString::number(dou);
@@ -1697,14 +1699,14 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 1)        // 1 = 英寸
-            dou = dou * 2.205;
-        if(index_1 == 2)        // 1 = 英尺
-            dou = dou * 35.274;
-        if(index_1 == 3)        // 1 = 码
-            dou = dou * 0.000984;
-        if(index_1 == 4)        // 1 = 英里
-            dou = dou * 0.001102;
+        if(index_1 == 1)        // 1纳米 = 0.000000039370079英寸
+            dou = dou * 0.000000039370079;
+        if(index_1 == 2)        // 1纳米 = 0.00000000328084英尺
+            dou = dou * 0.00000000328084;
+        if(index_1 == 3)        // 1纳米 = 0.000000001093613码
+            dou = dou * 0.000000001093613;
+        if(index_1 == 4)        // 1纳米 = 0.000000000000621英里
+            dou = dou * 0.000000000000621;
         if(index_1 == 5)       //以下为市值
         {
             dou = dou * 0;
@@ -1713,22 +1715,22 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 6)        // 1 = 市里
-            dou = dou * 15432.358;
-        if(index_1 == 7)        // 1 = 市引
-            dou = dou * 4877.561;
-        if(index_1 == 8)        // 1 = 市丈
-            dou = dou * 4877.561;
-        if(index_1 == 9)        // 1 = 市尺
-            dou = dou * 0.02;
-        if(index_1 == 10)       // 1 = 市寸
-            dou = dou * 2;
-        if(index_1 == 11)       // 1 = 市分
-            dou = dou * 20;
-        if(index_1 == 12)       // 1 = 市毫
-            dou = dou * 200;
-        if(index_1 == 13)       // 1 = 市厘
-            dou = dou * 20000;
+        if(index_1 == 6)        // 1纳米 = 0.000000000002市里
+            dou = dou * 0.000000000002;
+        if(index_1 == 7)        // 1纳米 = 0.00000000003市引
+            dou = dou * 0.00000000003;
+        if(index_1 == 8)        // 1纳米 = 0.0000000003市丈
+            dou = dou * 0.0000000003;
+        if(index_1 == 9)        // 1纳米 = 0.000000003市尺
+            dou = dou * 0.000000003;
+        if(index_1 == 10)       // 1纳米 = 0.00000003市寸
+            dou = dou * 0.00000003;
+        if(index_1 == 11)       // 1纳米 = 0.0000003市分
+            dou = dou * 0.0000003;
+        if(index_1 == 12)       // 1纳米 = 0.000003市毫
+            dou = dou * 0.000003;
+        if(index_1 == 13)       // 1纳米 = 0.00003市厘
+            dou = dou * 0.00003;
 
 
         str = QString::number(dou);
@@ -1745,14 +1747,14 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 1)        // 1 = 英寸
-            dou = dou * 2.205;
-        if(index_1 == 2)        // 1 = 英尺
-            dou = dou * 35.274;
-        if(index_1 == 3)        // 1 = 码
-            dou = dou * 0.000984;
-        if(index_1 == 4)        // 1 = 英里
-            dou = dou * 0.001102;
+        if(index_1 == 1)        // 1皮米 = 0.000000000039370079英寸
+            dou = dou * 0.000000000039370079;
+        if(index_1 == 2)        // 1皮米 = 0.00000000000328084英尺
+            dou = dou * 0.00000000000328084;
+        if(index_1 == 3)        // 1皮米 = 0.000000000001093613码
+            dou = dou * 0.000000000001093613;
+        if(index_1 == 4)        // 1皮米 = 0.000000000000000621英里
+            dou = dou * 0.000000000000000621;
         if(index_1 == 5)       //以下为市值
         {
             dou = dou * 0;
@@ -1761,22 +1763,22 @@ void Widget::on_length_pushButton_2_clicked()
             ui->length_lineEdit_2->setText(str);
             break;
         }
-        if(index_1 == 6)        // 1 = 市里
-            dou = dou * 15432.358;
-        if(index_1 == 7)        // 1 = 市引
-            dou = dou * 4877.561;
-        if(index_1 == 8)        // 1 = 市丈
-            dou = dou * 4877.561;
-        if(index_1 == 9)        // 1 = 市尺
-            dou = dou * 0.02;
-        if(index_1 == 10)       // 1 = 市寸
-            dou = dou * 2;
-        if(index_1 == 11)       // 1 = 市分
-            dou = dou * 20;
-        if(index_1 == 12)       // 1 = 市毫
-            dou = dou * 200;
-        if(index_1 == 13)       // 1 = 市厘
-            dou = dou * 20000;
+        if(index_1 == 6)        // 1皮米 = 0.000000000000002市里
+            dou = dou * 0.000000000000002;
+        if(index_1 == 7)        // 1皮米 = 0.00000000000003市引
+            dou = dou * 0.00000000000003;
+        if(index_1 == 8)        // 1皮米 = 0.0000000000003市丈
+            dou = dou * 0.0000000000003;
+        if(index_1 == 9)        // 1皮米 = 0.000000000003市尺
+            dou = dou * 0.000000000003;
+        if(index_1 == 10)       // 1皮米 = 0.00000000003市寸
+            dou = dou * 0.00000000003;
+        if(index_1 == 11)       // 1皮米 = 0.0000000003市分
+            dou = dou * 0.0000000003;
+        if(index_1 == 12)       // 1皮米 = 0.000000003市毫
+            dou = dou * 0.000000003;
+        if(index_1 == 13)       // 1皮米 = 0.00000003市厘
+            dou = dou * 0.00000003;
 
 
         str = QString::number(dou);
@@ -1790,12 +1792,457 @@ void Widget::on_length_pushButton_2_clicked()
 
 void Widget::on_area_pushButton_1_clicked()
 {
+    QString str;
+    str = ui->area_lineEdit_1->text();
+    double dou = str.toDouble();
+    int index_1 = ui->area_comboBox_1->currentIndex();
+    int index_2 = ui->area_comboBox_2->currentIndex();
+    switch(index_1)
+    {
+    case 0:
+    {
+        dou = dou * 0;
+        str = QString::number(dou);
+        ui->area_lineEdit_1->setText(str);
+        ui->area_lineEdit_1->setText(str);
+    }
+        break;
+    case 1:
+    {
+        if(index_2 == 0)        // 1平方英里 = 258.998811公顷
+                dou = dou * 258.998811;
+        if(index_2 == 1)        // 1平方英里 = 25899.8811034公亩
+                dou = dou * 25899.8811034;
+        if(index_2 == 2)        // 1平方英里 = 2.5899881平方公里
+                dou = dou * 2.5899881;
+        if(index_2 == 3)        // 1平方英里 = 2589988.110336平方米
+                dou = dou * 2589988.110336;
+        if(index_2 == 4)        // 1平方英里 = 258998811.0336平方分米
+                dou = dou * 258998811.0336;
+        if(index_2 == 5)        // 1平方英里 = 25899881103.36平方厘米
+                dou = dou * 25899881103.36;
 
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+    case 2:
+    {
+        if(index_2 == 0)        // 1平方英寸 = 0.000000064516公顷
+                dou = dou * 0.000000064516;
+        if(index_2 == 1)        // 1平方英寸 = 0.0000064516公亩
+                dou = dou * 0.0000064516;
+        if(index_2 == 2)        // 1平方英寸 = 0.00000000064516平方公里
+                dou = dou * 0.00000000064516;
+        if(index_2 == 3)        // 1平方英寸 = 0.0006452平方米
+                dou = dou * 0.0006452;
+        if(index_2 == 4)        // 1平方英寸 = 0.064516平方分米
+                dou = dou * 0.064516;
+        if(index_2 == 5)        // 1平方英寸 = 6.4516平方厘米
+                dou = dou * 6.4516;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+     case 3:
+    {
+        if(index_2 == 0)        // 1平方英尺 = 0.0000092903公顷
+                dou = dou * 0.0000092903;
+        if(index_2 == 1)        // 1平方英尺 = 0.000929公亩
+                dou = dou * 0.000929;
+        if(index_2 == 2)        // 1平方英尺 = 0.000000092903平方公里
+                dou = dou * 0.000000092903;
+        if(index_2 == 3)        // 1平方英尺 = 0.092903平方米
+                dou = dou * 0.092903;
+        if(index_2 == 4)        // 1平方英尺 = 9.290304平方分米
+                dou = dou * 9.290304;
+        if(index_2 == 5)        // 1平方英尺 = 929.0304平方厘米
+                dou = dou * 929.0304;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+    case 4:
+    {
+        if(index_2 == 0)        // 1平方码 = 0.0000836公顷
+                dou = dou * 0.0000836;
+        if(index_2 == 1)        // 1平方码 = 0.0083613公亩
+                dou = dou * 0.0083613;
+        if(index_2 == 2)        // 1平方码 = 0.00000083613平方公里
+                dou = dou * 0.00000083613;
+        if(index_2 == 3)        // 1平方码 = 0.8361274平方米
+                dou = dou * 0.8361274;
+        if(index_2 == 4)        // 1平方码 = 83.612736平方分米
+                dou = dou * 83.612736;
+        if(index_2 == 5)        // 1平方码 = 8361.2736平方厘米
+                dou = dou * 8361.2736;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+    case 5:
+    {
+        if(index_2 == 0)        // 1英亩 = 0.4046856公顷
+                dou = dou * 0.4046856;
+        if(index_2 == 1)        // 1英亩 = 40.4685642公亩
+                dou = dou * 40.4685642;
+        if(index_2 == 2)        // 1英亩 = 0.0040469平方公里
+                dou = dou * 0.0040469;
+        if(index_2 == 3)        // 1英亩 = 4046.8564224平方米
+                dou = dou * 4046.8564224;
+        if(index_2 == 4)        // 1英亩 = 404685.64224平方分米
+                dou = dou * 404685.64224;
+        if(index_2 == 5)        // 1英亩 = 40468564.224平方厘米
+                dou = dou * 40468564.224;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+    case 7:
+    {
+        if(index_2 == 0)        // 1市顷 = 6.6666667公顷
+                dou = dou * 6.6666667;
+        if(index_2 == 1)        // 1市顷 = 666.6666667公亩
+                dou = dou * 666.6666667;
+        if(index_2 == 2)        // 1市顷 = 0.0666667平方公里
+                dou = dou * 0.0666667;
+        if(index_2 == 3)        // 1市顷 = 66666.6666667平方米
+                dou = dou * 66666.6666667;
+        if(index_2 == 4)        // 1市顷 = 6666666.666667平方分米
+                dou = dou * 6666666.666667;
+        if(index_2 == 5)        // 1市顷 = 666666666.6667平方厘米
+                dou = dou * 666666666.6667;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+    case 8:
+    {
+        if(index_2 == 0)        // 1英亩 = 0.0666667公顷
+                dou = dou * 0.0666667;
+        if(index_2 == 1)        // 1英亩 = 6.6666667公亩
+                dou = dou * 6.6666667;
+        if(index_2 == 2)        // 1英亩 = 0.0006667平方公里
+                dou = dou * 0.0006667;
+        if(index_2 == 3)        // 1英亩 = 666.6666667平方米
+                dou = dou * 666.6666667;
+        if(index_2 == 4)        // 1英亩 = 66666.6666667平方分米
+                dou = dou * 66666.6666667;
+        if(index_2 == 5)        // 1英亩 = 6666666.666667平方厘米
+                dou = dou * 6666666.666667;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+    case 9:
+    {
+        if(index_2 == 0)        // 1英分 = 0.0066667公顷
+                dou = dou * 0.0066667;
+        if(index_2 == 1)        // 1英分 = 0.6666667公亩
+                dou = dou * 0.6666667;
+        if(index_2 == 2)        // 1英分 = 0.0000667平方公里
+                dou = dou * 0.0000667;
+        if(index_2 == 3)        // 1英分 = 66.6666667平方米
+                dou = dou * 66.6666667;
+        if(index_2 == 4)        // 1英分 = 6666.6666667平方分米
+                dou = dou * 6666.6666667;
+        if(index_2 == 5)        // 1英分 = 666666.6666667平方厘米
+                dou = dou * 666666.6666667;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+    case 10:
+    {
+        if(index_2 == 0)        // 1平方市尺 = 0.0000111公顷
+                dou = dou * 0.0000111;
+        if(index_2 == 1)        // 1平方市尺 = 0.0011111公亩
+                dou = dou * 0.0011111;
+        if(index_2 == 2)        // 1平方市尺 = 0.000000111平方公里
+                dou = dou * 0.000000111;
+        if(index_2 == 3)        // 1平方市尺 = 0.1111111平方米
+                dou = dou * 0.1111111;
+        if(index_2 == 4)        // 1平方市尺 = 11.1111111平方分米
+                dou = dou * 11.1111111;
+        if(index_2 == 5)        // 1平方市尺 = 1111.1111111平方厘米
+                dou = dou * 1111.1111111;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_2->setText(str);
+    }
+        break;
+
+    default:
+        break;
+    }
 }
 
 void Widget::on_area_pushButton_2_clicked()
 {
+    QString str;
+    str = ui->area_lineEdit_2->text();
+    double dou = str.toDouble();
+    int index_1 = ui->area_comboBox_1->currentIndex();
+    int index_2 = ui->area_comboBox_2->currentIndex();
+    switch (index_2)
+    {
+    case 0:
+    {
+        if(index_1 == 0)
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 1)        // 1公顷 = 0.003861平方英里
+            dou = dou * 0.003861;
+        if(index_1 == 2)        // 1公顷 = 15500031.00006平方英寸
+            dou = dou * 15500031.00006;
+        if(index_1 == 3)        // 1公顷 = 107639.1041671平方英尺
+            dou = dou * 107639.1041671;
+        if(index_1 == 4)        // 1公顷 = 11959.900463平方码
+            dou = dou * 11959.900463;
+        if(index_1 == 5)        // 1公顷 = 2.4710538英亩
+            dou = dou * 2.4710538;
+        if(index_1 == 6)        //以下为市值
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 7)        // 1公顷 = 0.15市顷
+            dou = dou * 0.15;
+        if(index_1 == 8)        // 1公顷 = 15市亩
+            dou = dou * 15;
+        if(index_1 == 9)        // 1公顷 = 150市分
+            dou = dou * 150;
+        if(index_1 == 10)       // 1公顷 = 90000平方市尺
+            dou = dou * 90000;
 
+        str = QString::number(dou);
+        ui->area_lineEdit_1->setText(str);
+    }
+        break;
+    case 1:
+    {
+        if(index_1 == 0)
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 1)        // 1公亩 = 平方英里
+            dou = dou * 39370.0787402;
+        if(index_1 == 2)        // 1公亩 = 平方英寸
+            dou = dou * 3280.839895;
+        if(index_1 == 3)        // 1公亩 = 平方英尺
+            dou = dou * 1093.6132983;
+        if(index_1 == 4)        // 1公亩 = 平方码
+            dou = dou * 0.6213712;
+        if(index_1 == 5)        // 1公亩 = 英亩
+            dou = dou * 2;
+        if(index_1 == 6)        //以下为市值
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 7)        // 1公亩 = 市顷
+            dou = dou * 30;
+        if(index_1 == 8)        // 1公亩 = 市亩
+            dou = dou * 300;
+        if(index_1 == 9)        // 1公亩 = 市分
+            dou = dou * 3000;
+        if(index_1 == 10)       // 1公亩 = 平方市尺
+            dou = dou * 30000;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_1->setText(str);
+    }
+        break;
+    case 2:
+    {
+        if(index_1 == 0)
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 1)        // 1 = 平方英里
+            dou = dou * 39370.0787402;
+        if(index_1 == 2)        // 1 = 平方英寸
+            dou = dou * 3280.839895;
+        if(index_1 == 3)        // 1 = 平方英尺
+            dou = dou * 1093.6132983;
+        if(index_1 == 4)        // 1 = 平方码
+            dou = dou * 0.6213712;
+        if(index_1 == 5)        // 1 = 英亩
+            dou = dou * 2;
+        if(index_1 == 6)        //以下为市值
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 7)        // 1 = 市顷
+            dou = dou * 30;
+        if(index_1 == 8)        // 1 = 市亩
+            dou = dou * 300;
+        if(index_1 == 9)        // 1 = 市分
+            dou = dou * 3000;
+        if(index_1 == 10)       // 1 = 平方市尺
+            dou = dou * 30000;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_1->setText(str);
+    }
+        break;
+    case 3:
+    {
+        if(index_1 == 0)
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 1)        // 1 = 平方英里
+            dou = dou * 39370.0787402;
+        if(index_1 == 2)        // 1 = 平方英寸
+            dou = dou * 3280.839895;
+        if(index_1 == 3)        // 1 = 平方英尺
+            dou = dou * 1093.6132983;
+        if(index_1 == 4)        // 1 = 平方码
+            dou = dou * 0.6213712;
+        if(index_1 == 5)        // 1 = 英亩
+            dou = dou * 2;
+        if(index_1 == 6)        //以下为市值
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 7)        // 1 = 市顷
+            dou = dou * 30;
+        if(index_1 == 8)        // 1 = 市亩
+            dou = dou * 300;
+        if(index_1 == 9)        // 1 = 市分
+            dou = dou * 3000;
+        if(index_1 == 10)       // 1 = 平方市尺
+            dou = dou * 30000;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_1->setText(str);
+    }
+        break;
+    case 4:
+    {
+        if(index_1 == 0)
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 1)        // 1 = 平方英里
+            dou = dou * 39370.0787402;
+        if(index_1 == 2)        // 1 = 平方英寸
+            dou = dou * 3280.839895;
+        if(index_1 == 3)        // 1 = 平方英尺
+            dou = dou * 1093.6132983;
+        if(index_1 == 4)        // 1 = 平方码
+            dou = dou * 0.6213712;
+        if(index_1 == 5)        // 1 = 英亩
+            dou = dou * 2;
+        if(index_1 == 6)        //以下为市值
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 7)        // 1 = 市顷
+            dou = dou * 30;
+        if(index_1 == 8)        // 1 = 市亩
+            dou = dou * 300;
+        if(index_1 == 9)        // 1 = 市分
+            dou = dou * 3000;
+        if(index_1 == 10)       // 1 = 平方市尺
+            dou = dou * 30000;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_1->setText(str);
+    }
+        break;
+    case 5:
+    {
+        if(index_1 == 0)
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 1)        // 1 = 平方英里
+            dou = dou * 39370.0787402;
+        if(index_1 == 2)        // 1 = 平方英寸
+            dou = dou * 3280.839895;
+        if(index_1 == 3)        // 1 = 平方英尺
+            dou = dou * 1093.6132983;
+        if(index_1 == 4)        // 1 = 平方码
+            dou = dou * 0.6213712;
+        if(index_1 == 5)        // 1 = 英亩
+            dou = dou * 2;
+        if(index_1 == 6)        //以下为市值
+        {
+            dou = dou * 0;
+            str = QString::number(dou);
+            ui->area_lineEdit_1->setText(str);
+            ui->area_lineEdit_2->setText(str);
+            break;
+        }
+        if(index_1 == 7)        // 1 = 市顷
+            dou = dou * 30;
+        if(index_1 == 8)        // 1 = 市亩
+            dou = dou * 300;
+        if(index_1 == 9)        // 1 = 市分
+            dou = dou * 3000;
+        if(index_1 == 10)       // 1 = 平方市尺
+            dou = dou * 30000;
+
+        str = QString::number(dou);
+        ui->area_lineEdit_1->setText(str);
+    }
+        break;
+
+    default:
+        break;
+    }
 }
 
 void Widget::on_volume_pushButton_1_clicked()
