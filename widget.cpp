@@ -2701,28 +2701,28 @@ void Widget::on_money_pushButton_1_clicked()
     {
     case 0:
     {
-        if(index_2 == 0)        // 1 = 人民币
-                dou = dou * ;
-        if(index_2 == 1)        // 1 = 美元
-                dou = dou * ;
-        if(index_2 == 2)        // 1 = 加拿大元
-                dou = dou * ;
-        if(index_2 == 3)        // 1 = 澳元
-                dou = dou * ;
-        if(index_2 == 4)        // 1 = 欧元
-                dou = dou * ;
-        if(index_2 == 5)        // 1 = 英镑
-                dou = dou * ;
-        if(index_2 == 6)        // 1 = 日元
-                dou = dou * ;
-        if(index_2 == 7)        // 1 = 泰铢
-                dou = dou * ;
-        if(index_2 == 8)        // 1 = 新加坡元
-                dou = dou * ;
-        if(index_2 == 9)        // 1 = 港元
-                dou = dou * ;
-        if(index_2 == 10)        // 1 = 新台元
-                dou = dou * ;
+        if(index_2 == 0)        // 1人民币 = 1人民币
+                dou = dou * 1;
+        if(index_2 == 1)        // 1人民币 = 0.1464美元
+                dou = dou * 0.1464;
+        if(index_2 == 2)        // 1人民币 = 0.1925加拿大元
+                dou = dou * 0.1925;
+        if(index_2 == 3)        // 1人民币 = 0.2011澳元
+                dou = dou * 0.2011;
+        if(index_2 == 4)        // 1人民币 = 0.1240欧元
+                dou = dou * 0.1240;
+        if(index_2 == 5)        // 1人民币 = 0.1126英镑
+                dou = dou * 0.1126;
+        if(index_2 == 6)        // 1人民币 = 15.5487日元
+                dou = dou * 15.5487;
+        if(index_2 == 7)        // 1人民币 = 4.5763泰铢
+                dou = dou * 4.5763;
+        if(index_2 == 8)        // 1人民币 = 0.2001新加坡元
+                dou = dou * 0.2001;
+        if(index_2 == 9)        // 1人民币 = 1.1346港元
+                dou = dou * 1.1346;
+        if(index_2 == 10)       // 1人民币 = 4.2904新台元
+                dou = dou * 4.2904;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2730,28 +2730,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 1:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1美元 = 6.8308人民币
+                dou = dou * 6.8308;
+        if(index_2 == 1)        // 1美元 = 1美元
+                dou = dou * 1;
+        if(index_2 == 2)        // 1美元 = 1.3151加拿大元
+                dou = dou * 1.3151;
+        if(index_2 == 3)        // 1美元 = 1.374澳元
+                dou = dou * 1.374;
+        if(index_2 == 4)        // 1美元 = 0.8470欧元
+                dou = dou * 0.8470;
+        if(index_2 == 5)        // 1美元 = 0.7690英镑
+                dou = dou * 0.7690;
+        if(index_2 == 6)        // 1美元 = 106.21日元
+                dou = dou * 106.21;
+        if(index_2 == 7)        // 1美元 = 31.26泰铢
+                dou = dou * 31.26;
+        if(index_2 == 8)        // 1美元 = 1.3669新加坡元
+                dou = dou * 1.3669;
+        if(index_2 == 9)        // 1美元 = 7.7501港元
+                dou = dou * 7.7501;
+        if(index_2 == 10)        // 1美元 = 29.307新台元
+                dou = dou * 29.307;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2759,28 +2759,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 2:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1加拿大元 = 5.1941人民币
+                dou = dou * 5.1941;
+        if(index_2 == 1)        // 1加拿大元 = 0.7604美元
+                dou = dou * 0.7604;
+        if(index_2 == 2)        // 1加拿大元 = 1加拿大元
+                dou = dou * 1;
+        if(index_2 == 3)        // 1加拿大元 = 1.0448澳元
+                dou = dou * 1.0448;
+        if(index_2 == 4)        // 1加拿大元 = 0.6441欧元
+                dou = dou * 0.6441;
+        if(index_2 == 5)        // 1加拿大元 = 0.5847英镑
+                dou = dou * 0.5847;
+        if(index_2 == 6)        // 1加拿大元 = 80.7619日元
+                dou = dou * 80.7619;
+        if(index_2 == 7)        // 1加拿大元 = 23.7701泰铢
+                dou = dou * 23.7701;
+        if(index_2 == 8)        // 1加拿大元 = 1.0394新加坡元
+                dou = dou * 1.0394;
+        if(index_2 == 9)        // 1加拿大元 = 5.8932港元
+                dou = dou * 5.8932;
+        if(index_2 == 10)        // 1加拿大元 = 22.285新台元
+                dou = dou * 22.285;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2788,28 +2788,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 3:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1澳元 = 4.9715人民币
+                dou = dou * 4.9715;
+        if(index_2 == 1)        // 1澳元 = 0.7278美元
+                dou = dou * 0.7278;
+        if(index_2 == 2)        // 1澳元 = 0.9571加拿大元
+                dou = dou * 0.9571;
+        if(index_2 == 3)        // 1澳元 = 1澳元
+                dou = dou * 1;
+        if(index_2 == 4)        // 1澳元 = 0.6150欧元
+                dou = dou * 0.6150;
+        if(index_2 == 5)        // 1澳元 = 0.5593英镑
+                dou = dou * 0.5593;
+        if(index_2 == 6)        // 1澳元 = 77.1152日元
+                dou = dou * 77.1152;
+        if(index_2 == 7)        // 1澳元 = 22.701泰铢
+                dou = dou * 22.701;
+        if(index_2 == 8)        // 1澳元 = 0.9923新加坡元
+                dou = dou * 0.9923;
+        if(index_2 == 9)        // 1澳元 = 5.6281港元
+                dou = dou * 5.6281;
+        if(index_2 == 10)        // 1澳元 = 21.2537新台元
+                dou = dou * 21.2537;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2817,28 +2817,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 4:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1欧元 = 8.0644人民币
+                dou = dou * 8.0644;
+        if(index_2 == 1)        // 1欧元 = 1.1806美元
+                dou = dou * 1.1806;
+        if(index_2 == 2)        // 1欧元 = 1.5526加拿大元
+                dou = dou * 1.5526;
+        if(index_2 == 3)        // 1欧元 = 1.6261澳元
+                dou = dou * 1.6261;
+        if(index_2 == 4)        // 1欧元 = 1欧元
+                dou = dou * 1;
+        if(index_2 == 5)        // 1欧元 = 0.9094英镑
+                dou = dou * 0.9094;
+        if(index_2 == 6)        // 1欧元 = 125.3998日元
+                dou = dou * 125.3998;
+        if(index_2 == 7)        // 1欧元 = 36.9149泰铢
+                dou = dou * 36.9149;
+        if(index_2 == 8)        // 1欧元 = 1.6136新加坡元
+                dou = dou * 1.6136;
+        if(index_2 == 9)        // 1欧元 = 9.1521港元
+                dou = dou * 9.1521;
+        if(index_2 == 10)        // 1欧元 = 34.5614新台元
+                dou = dou * 34.5614;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2846,28 +2846,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 5:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1英镑 = 8.8828人民币
+                dou = dou * 8.8828;
+        if(index_2 == 1)        // 1英镑 = 1.3004美元
+                dou = dou * 1.3004;
+        if(index_2 == 2)        // 1英镑 = 1.7102加拿大元
+                dou = dou * 1.7102;
+        if(index_2 == 3)        // 1英镑 = 1.7881澳元
+                dou = dou * 1.7881;
+        if(index_2 == 4)        // 1英镑 = 1.0996欧元
+                dou = dou * 1.0996;
+        if(index_2 == 5)        // 1英镑 = 1英镑
+                dou = dou * 1;
+        if(index_2 == 6)        // 1英镑 = 137.8877日元
+                dou = dou * 137.8877;
+        if(index_2 == 7)        // 1英镑 = 40.5911泰铢
+                dou = dou * 40.5911;
+        if(index_2 == 8)        // 1英镑 = 1.7743新加坡元
+                dou = dou * 1.7743;
+        if(index_2 == 9)        // 1英镑 = 10.0635港元
+                dou = dou * 10.0635;
+        if(index_2 == 10)       // 1英镑 = 38.0032新台元
+                dou = dou * 38.0032;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2875,28 +2875,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 6:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1日元 = 0.0643人民币
+                dou = dou * 0.0643;
+        if(index_2 == 1)        // 1日元 = 0.0094美元
+                dou = dou * 0.0094;
+        if(index_2 == 2)        // 1日元 = 0.0124加拿大元
+                dou = dou * 0.0124;
+        if(index_2 == 3)        // 1日元 = 0.013澳元
+                dou = dou * 0.013;
+        if(index_2 == 4)        // 1日元 = 0.008欧元
+                dou = dou * 0.008;
+        if(index_2 == 5)        // 1日元 = 0.0073英镑
+                dou = dou * 0.0073;
+        if(index_2 == 6)        // 1日元 = 1日元
+                dou = dou * 1;
+        if(index_2 == 7)        // 1日元 = 0.2944泰铢
+                dou = dou * 0.2944;
+        if(index_2 == 8)        // 1日元 = 0.01287新加坡元
+                dou = dou * 0.01287;
+        if(index_2 == 9)        // 1日元 = 0.07298港元
+                dou = dou * 0.07298;
+        if(index_2 == 10)        // 1日元 = 0.2756新台元
+                dou = dou * 0.2756;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2904,28 +2904,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 7:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1泰铢 = 0.2185人民币
+                dou = dou * 0.2185;
+        if(index_2 == 1)        // 1泰铢 = 0.032美元
+                dou = dou * 0.032;
+        if(index_2 == 2)        // 1泰铢 = 0.0421加拿大元
+                dou = dou * 0.0421;
+        if(index_2 == 3)        // 1泰铢 = 0.0441澳元
+                dou = dou * 0.0441;
+        if(index_2 == 4)        // 1泰铢 = 0.0271欧元
+                dou = dou * 0.0271;
+        if(index_2 == 5)        // 1泰铢 = 0.0246英镑
+                dou = dou * 0.0246;
+        if(index_2 == 6)        // 1泰铢 = 3.397日元
+                dou = dou * 3.397;
+        if(index_2 == 7)        // 1泰铢 = 1泰铢
+                dou = dou * 1;
+        if(index_2 == 8)        // 1泰铢 = 0.04371新加坡元
+                dou = dou * 0.04371;
+        if(index_2 == 9)        // 1泰铢 = 0.2479港元
+                dou = dou * 0.2479;
+        if(index_2 == 10)        // 1泰铢 = 0.9362新台元
+                dou = dou * 0.9362;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2933,28 +2933,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 8:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1新加坡元 = 4.9973人民币
+                dou = dou * 4.9973;
+        if(index_2 == 1)        // 1新加坡元 = 0.7316美元
+                dou = dou * 0.7316;
+        if(index_2 == 2)        // 1新加坡元 = 0.9621加拿大元
+                dou = dou * 0.9621;
+        if(index_2 == 3)        // 1新加坡元 = 1.0078澳元
+                dou = dou * 1.0078;
+        if(index_2 == 4)        // 1新加坡元 = 0.6197欧元
+                dou = dou * 0.6197;
+        if(index_2 == 5)        // 1新加坡元 = 0.5636英镑
+                dou = dou * 0.5636;
+        if(index_2 == 6)        // 1新加坡元 = 77.7152日元
+                dou = dou * 77.7152;
+        if(index_2 == 7)        // 1新加坡元 = 22.8776泰铢
+                dou = dou * 22.8776;
+        if(index_2 == 8)        // 1新加坡元 = 1新加坡元
+                dou = dou * 1;
+        if(index_2 == 9)        // 1新加坡元 = 5.6719港元
+                dou = dou * 5.6719;
+        if(index_2 == 10)        // 1新加坡元 = 21.4191新台元
+                dou = dou * 21.4191;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2962,28 +2962,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 9:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1港元 = 0.8814人民币
+                dou = dou * 0.8814;
+        if(index_2 == 1)        // 1港元 = 0.129美元
+                dou = dou * 0.129;
+        if(index_2 == 2)        // 1港元 = 0.1697加拿大元
+                dou = dou * 0.1697;
+        if(index_2 == 3)        // 1港元 = 0.1777澳元
+                dou = dou * 0.1777;
+        if(index_2 == 4)        // 1港元 = 0.1093欧元
+                dou = dou * 0.1093;
+        if(index_2 == 5)        // 1港元 = 0.0994英镑
+                dou = dou * 0.0994;
+        if(index_2 == 6)        // 1港元 = 13.7018日元
+                dou = dou * 13.7018;
+        if(index_2 == 7)        // 1港元 = 4.0335泰铢
+                dou = dou * 4.0335;
+        if(index_2 == 8)        // 1港元 = 0.1763新加坡元
+                dou = dou * 0.1763;
+        if(index_2 == 9)        // 1港元 = 1港元
+                dou = dou * 1;
+        if(index_2 == 10)        // 1港元 = 3.7763新台元
+                dou = dou * 3.7763;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -2991,28 +2991,28 @@ void Widget::on_money_pushButton_1_clicked()
         break;
     case 10:
     {
-        if(index_2 == 0)        // 1 =
-                dou = dou * ;
-        if(index_2 == 1)        // 1 =
-                dou = dou * ;
-        if(index_2 == 2)        // 1 =
-                dou = dou * ;
-        if(index_2 == 3)        // 1 =
-                dou = dou * ;
-        if(index_2 == 4)        // 1 =
-                dou = dou * ;
-        if(index_2 == 5)        // 1 =
-                dou = dou * ;
-        if(index_2 == 6)        // 1 =
-                dou = dou * ;
-        if(index_2 == 7)        // 1 =
-                dou = dou * ;
-        if(index_2 == 8)        // 1 =
-                dou = dou * ;
-        if(index_2 == 9)        // 1 =
-                dou = dou * ;
-        if(index_2 == 10)        // 1 =
-                dou = dou * ;
+        if(index_2 == 0)        // 1新台元 = 0.2331人民币
+                dou = dou * 0.2331;
+        if(index_2 == 1)        // 1新台元 = 0.0341美元
+                dou = dou * 0.0341;
+        if(index_2 == 2)        // 1新台元 = 0.0449加拿大元
+                dou = dou * 0.0449;
+        if(index_2 == 3)        // 1新台元 = 0.0471澳元
+                dou = dou * 0.0471;
+        if(index_2 == 4)        // 1新台元 = 0.0289欧元
+                dou = dou * 0.0289;
+        if(index_2 == 5)        // 1新台元 = 0.0263英镑
+                dou = dou * 0.0263;
+        if(index_2 == 6)        // 1新台元 = 3.6283日元
+                dou = dou * 3.6283;
+        if(index_2 == 7)        // 1新台元 = 1.0681泰铢
+                dou = dou * 1.0681;
+        if(index_2 == 8)        // 1新台元 = 0.0467新加坡元
+                dou = dou * 0.0467;
+        if(index_2 == 9)        // 1新台元 = 0.2648港元
+                dou = dou * 0.2648;
+        if(index_2 == 10)        // 1新台元 = 1新台元
+                dou = dou * 1;
 
         str = QString::number(dou);
         ui->money_lineEdit_2->setText(str);
@@ -3026,5 +3026,334 @@ void Widget::on_money_pushButton_1_clicked()
 
 void Widget::on_money_pushButton_2_clicked()
 {
+    QString str;
+    str = ui->money_lineEdit_2->text();
+    double dou = str.toDouble();
+    int index_1 = ui->money_comboBox_1->currentIndex();
+    int index_2 = ui->money_comboBox_2->currentIndex();
+    switch(index_2)
+    {
+    case 0:
+    {
+        if(index_1 == 0)        // 1人民币 = 1人民币
+                dou = dou * 1;
+        if(index_1 == 1)        // 1人民币 = 0.1464美元
+                dou = dou * 0.1464;
+        if(index_1 == 2)        // 1人民币 = 0.1925加拿大元
+                dou = dou * 0.1925;
+        if(index_1 == 3)        // 1人民币 = 0.2011澳元
+                dou = dou * 0.2011;
+        if(index_1 == 4)        // 1人民币 = 0.1240欧元
+                dou = dou * 0.1240;
+        if(index_1 == 5)        // 1人民币 = 0.1126英镑
+                dou = dou * 0.1126;
+        if(index_1 == 6)        // 1人民币 = 15.5487日元
+                dou = dou * 15.5487;
+        if(index_1 == 7)        // 1人民币 = 4.5763泰铢
+                dou = dou * 4.5763;
+        if(index_1 == 8)        // 1人民币 = 0.2001新加坡元
+                dou = dou * 0.2001;
+        if(index_1 == 9)        // 1人民币 = 1.1346港元
+                dou = dou * 1.1346;
+        if(index_1 == 10)       // 1人民币 = 4.2904新台元
+                dou = dou * 4.2904;
 
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 1:
+    {
+        if(index_1 == 0)        // 1美元 = 6.8308人民币
+                dou = dou * 6.8308;
+        if(index_1 == 1)        // 1美元 = 1美元
+                dou = dou * 1;
+        if(index_1 == 2)        // 1美元 = 1.3151加拿大元
+                dou = dou * 1.3151;
+        if(index_1 == 3)        // 1美元 = 1.374澳元
+                dou = dou * 1.374;
+        if(index_1 == 4)        // 1美元 = 0.8470欧元
+                dou = dou * 0.8470;
+        if(index_1 == 5)        // 1美元 = 0.7690英镑
+                dou = dou * 0.7690;
+        if(index_1 == 6)        // 1美元 = 106.21日元
+                dou = dou * 106.21;
+        if(index_1 == 7)        // 1美元 = 31.26泰铢
+                dou = dou * 31.26;
+        if(index_1 == 8)        // 1美元 = 1.3669新加坡元
+                dou = dou * 1.3669;
+        if(index_1 == 9)        // 1美元 = 7.7501港元
+                dou = dou * 7.7501;
+        if(index_1 == 10)        // 1美元 = 29.307新台元
+                dou = dou * 29.307;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 2:
+    {
+        if(index_1 == 0)        // 1加拿大元 = 5.1941人民币
+                dou = dou * 5.1941;
+        if(index_1 == 1)        // 1加拿大元 = 0.7604美元
+                dou = dou * 0.7604;
+        if(index_1 == 2)        // 1加拿大元 = 1加拿大元
+                dou = dou * 1;
+        if(index_1 == 3)        // 1加拿大元 = 1.0448澳元
+                dou = dou * 1.0448;
+        if(index_1 == 4)        // 1加拿大元 = 0.6441欧元
+                dou = dou * 0.6441;
+        if(index_1 == 5)        // 1加拿大元 = 0.5847英镑
+                dou = dou * 0.5847;
+        if(index_1 == 6)        // 1加拿大元 = 80.7619日元
+                dou = dou * 80.7619;
+        if(index_1 == 7)        // 1加拿大元 = 23.7701泰铢
+                dou = dou * 23.7701;
+        if(index_1 == 8)        // 1加拿大元 = 1.0394新加坡元
+                dou = dou * 1.0394;
+        if(index_1 == 9)        // 1加拿大元 = 5.8932港元
+                dou = dou * 5.8932;
+        if(index_1 == 10)        // 1加拿大元 = 22.285新台元
+                dou = dou * 22.285;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 3:
+    {
+        if(index_1 == 0)        // 1澳元 = 4.9715人民币
+                dou = dou * 4.9715;
+        if(index_1 == 1)        // 1澳元 = 0.7278美元
+                dou = dou * 0.7278;
+        if(index_1 == 2)        // 1澳元 = 0.9571加拿大元
+                dou = dou * 0.9571;
+        if(index_1 == 3)        // 1澳元 = 1澳元
+                dou = dou * 1;
+        if(index_1 == 4)        // 1澳元 = 0.6150欧元
+                dou = dou * 0.6150;
+        if(index_1 == 5)        // 1澳元 = 0.5593英镑
+                dou = dou * 0.5593;
+        if(index_1 == 6)        // 1澳元 = 77.1152日元
+                dou = dou * 77.1152;
+        if(index_1 == 7)        // 1澳元 = 22.701泰铢
+                dou = dou * 22.701;
+        if(index_1 == 8)        // 1澳元 = 0.9923新加坡元
+                dou = dou * 0.9923;
+        if(index_1 == 9)        // 1澳元 = 5.6281港元
+                dou = dou * 5.6281;
+        if(index_1 == 10)        // 1澳元 = 21.2537新台元
+                dou = dou * 21.2537;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 4:
+    {
+        if(index_1 == 0)        // 1欧元 = 8.0644人民币
+                dou = dou * 8.0644;
+        if(index_1 == 1)        // 1欧元 = 1.1806美元
+                dou = dou * 1.1806;
+        if(index_1 == 2)        // 1欧元 = 1.5526加拿大元
+                dou = dou * 1.5526;
+        if(index_1 == 3)        // 1欧元 = 1.6261澳元
+                dou = dou * 1.6261;
+        if(index_1 == 4)        // 1欧元 = 1欧元
+                dou = dou * 1;
+        if(index_1 == 5)        // 1欧元 = 0.9094英镑
+                dou = dou * 0.9094;
+        if(index_1 == 6)        // 1欧元 = 125.3998日元
+                dou = dou * 125.3998;
+        if(index_1 == 7)        // 1欧元 = 36.9149泰铢
+                dou = dou * 36.9149;
+        if(index_1 == 8)        // 1欧元 = 1.6136新加坡元
+                dou = dou * 1.6136;
+        if(index_1 == 9)        // 1欧元 = 9.1521港元
+                dou = dou * 9.1521;
+        if(index_1 == 10)        // 1欧元 = 34.5614新台元
+                dou = dou * 34.5614;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 5:
+    {
+        if(index_1 == 0)        // 1英镑 = 8.8828人民币
+                dou = dou * 8.8828;
+        if(index_1 == 1)        // 1英镑 = 1.3004美元
+                dou = dou * 1.3004;
+        if(index_1 == 2)        // 1英镑 = 1.7102加拿大元
+                dou = dou * 1.7102;
+        if(index_1 == 3)        // 1英镑 = 1.7881澳元
+                dou = dou * 1.7881;
+        if(index_1 == 4)        // 1英镑 = 1.0996欧元
+                dou = dou * 1.0996;
+        if(index_1 == 5)        // 1英镑 = 1英镑
+                dou = dou * 1;
+        if(index_1 == 6)        // 1英镑 = 137.8877日元
+                dou = dou * 137.8877;
+        if(index_1 == 7)        // 1英镑 = 40.5911泰铢
+                dou = dou * 40.5911;
+        if(index_1 == 8)        // 1英镑 = 1.7743新加坡元
+                dou = dou * 1.7743;
+        if(index_1 == 9)        // 1英镑 = 10.0635港元
+                dou = dou * 10.0635;
+        if(index_1 == 10)       // 1英镑 = 38.0032新台元
+                dou = dou * 38.0032;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 6:
+    {
+        if(index_1 == 0)        // 1日元 = 0.0643人民币
+                dou = dou * 0.0643;
+        if(index_1 == 1)        // 1日元 = 0.0094美元
+                dou = dou * 0.0094;
+        if(index_1 == 2)        // 1日元 = 0.0124加拿大元
+                dou = dou * 0.0124;
+        if(index_1 == 3)        // 1日元 = 0.013澳元
+                dou = dou * 0.013;
+        if(index_1 == 4)        // 1日元 = 0.008欧元
+                dou = dou * 0.008;
+        if(index_1 == 5)        // 1日元 = 0.0073英镑
+                dou = dou * 0.0073;
+        if(index_1 == 6)        // 1日元 = 1日元
+                dou = dou * 1;
+        if(index_1 == 7)        // 1日元 = 0.2944泰铢
+                dou = dou * 0.2944;
+        if(index_1 == 8)        // 1日元 = 0.01287新加坡元
+                dou = dou * 0.01287;
+        if(index_1 == 9)        // 1日元 = 0.07298港元
+                dou = dou * 0.07298;
+        if(index_1 == 10)        // 1日元 = 0.2756新台元
+                dou = dou * 0.2756;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 7:
+    {
+        if(index_1 == 0)        // 1泰铢 = 0.2185人民币
+                dou = dou * 0.2185;
+        if(index_1 == 1)        // 1泰铢 = 0.032美元
+                dou = dou * 0.032;
+        if(index_1 == 2)        // 1泰铢 = 0.0421加拿大元
+                dou = dou * 0.0421;
+        if(index_1 == 3)        // 1泰铢 = 0.0441澳元
+                dou = dou * 0.0441;
+        if(index_1 == 4)        // 1泰铢 = 0.0271欧元
+                dou = dou * 0.0271;
+        if(index_1 == 5)        // 1泰铢 = 0.0246英镑
+                dou = dou * 0.0246;
+        if(index_1 == 6)        // 1泰铢 = 3.397日元
+                dou = dou * 3.397;
+        if(index_1 == 7)        // 1泰铢 = 1泰铢
+                dou = dou * 1;
+        if(index_1 == 8)        // 1泰铢 = 0.04371新加坡元
+                dou = dou * 0.04371;
+        if(index_1 == 9)        // 1泰铢 = 0.2479港元
+                dou = dou * 0.2479;
+        if(index_1 == 10)        // 1泰铢 = 0.9362新台元
+                dou = dou * 0.9362;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 8:
+    {
+        if(index_1 == 0)        // 1新加坡元 = 4.9973人民币
+                dou = dou * 4.9973;
+        if(index_1 == 1)        // 1新加坡元 = 0.7316美元
+                dou = dou * 0.7316;
+        if(index_1 == 2)        // 1新加坡元 = 0.9621加拿大元
+                dou = dou * 0.9621;
+        if(index_1 == 3)        // 1新加坡元 = 1.0078澳元
+                dou = dou * 1.0078;
+        if(index_1 == 4)        // 1新加坡元 = 0.6197欧元
+                dou = dou * 0.6197;
+        if(index_1 == 5)        // 1新加坡元 = 0.5636英镑
+                dou = dou * 0.5636;
+        if(index_1 == 6)        // 1新加坡元 = 77.7152日元
+                dou = dou * 77.7152;
+        if(index_1 == 7)        // 1新加坡元 = 22.8776泰铢
+                dou = dou * 22.8776;
+        if(index_1 == 8)        // 1新加坡元 = 1新加坡元
+                dou = dou * 1;
+        if(index_1 == 9)        // 1新加坡元 = 5.6719港元
+                dou = dou * 5.6719;
+        if(index_1 == 10)        // 1新加坡元 = 21.4191新台元
+                dou = dou * 21.4191;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 9:
+    {
+        if(index_1 == 0)        // 1港元 = 0.8814人民币
+                dou = dou * 0.8814;
+        if(index_1 == 1)        // 1港元 = 0.129美元
+                dou = dou * 0.129;
+        if(index_1 == 2)        // 1港元 = 0.1697加拿大元
+                dou = dou * 0.1697;
+        if(index_1 == 3)        // 1港元 = 0.1777澳元
+                dou = dou * 0.1777;
+        if(index_1 == 4)        // 1港元 = 0.1093欧元
+                dou = dou * 0.1093;
+        if(index_1 == 5)        // 1港元 = 0.0994英镑
+                dou = dou * 0.0994;
+        if(index_1 == 6)        // 1港元 = 13.7018日元
+                dou = dou * 13.7018;
+        if(index_1 == 7)        // 1港元 = 4.0335泰铢
+                dou = dou * 4.0335;
+        if(index_1 == 8)        // 1港元 = 0.1763新加坡元
+                dou = dou * 0.1763;
+        if(index_1 == 9)        // 1港元 = 1港元
+                dou = dou * 1;
+        if(index_1 == 10)        // 1港元 = 3.7763新台元
+                dou = dou * 3.7763;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+    case 10:
+    {
+        if(index_1 == 0)        // 1新台元 = 0.2331人民币
+                dou = dou * 0.2331;
+        if(index_1 == 1)        // 1新台元 = 0.0341美元
+                dou = dou * 0.0341;
+        if(index_1 == 2)        // 1新台元 = 0.0449加拿大元
+                dou = dou * 0.0449;
+        if(index_1 == 3)        // 1新台元 = 0.0471澳元
+                dou = dou * 0.0471;
+        if(index_1 == 4)        // 1新台元 = 0.0289欧元
+                dou = dou * 0.0289;
+        if(index_1 == 5)        // 1新台元 = 0.0263英镑
+                dou = dou * 0.0263;
+        if(index_1 == 6)        // 1新台元 = 3.6283日元
+                dou = dou * 3.6283;
+        if(index_1 == 7)        // 1新台元 = 1.0681泰铢
+                dou = dou * 1.0681;
+        if(index_1 == 8)        // 1新台元 = 0.0467新加坡元
+                dou = dou * 0.0467;
+        if(index_1 == 9)        // 1新台元 = 0.2648港元
+                dou = dou * 0.2648;
+        if(index_1 == 10)        // 1新台元 = 1新台元
+                dou = dou * 1;
+
+        str = QString::number(dou);
+        ui->money_lineEdit_1->setText(str);
+    }
+        break;
+
+    default:
+        break;
+    }
 }
