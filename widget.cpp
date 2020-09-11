@@ -8,7 +8,7 @@
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
-    ui(new Ui::Widget)
+    ui(new Ui::Widget)  //设置界面
 {
     ui->setupUi(this);
 
@@ -21,7 +21,7 @@ Widget::Widget(QWidget *parent) :
     ui->money->setText("货币转换");
 
     QFont a;
-    a.setPointSize(14);       //设置字体大小
+    a.setPointSize(13);       //设置字体大小
     ui->weight->setFont(a);
     ui->length->setFont(a);
     ui->area->setFont(a);
@@ -143,7 +143,7 @@ Widget::Widget(QWidget *parent) :
     ui->money_pushButton_1->setFont(a);
     ui->money_pushButton_2->setFont(a);
 
-    // 设置文本框lineEdit大小
+    // 设置文本框大小
     // weight
     ui->weight_lineEdit_1->setFixedSize(210, 21);
     ui->weight_lineEdit_2->setFixedSize(210, 21);
@@ -327,7 +327,7 @@ Widget::~Widget()
     delete ui;
 }
 
-void Widget::on_weight_pushButton_1_clicked()    //由其它转换为公制
+void Widget::on_weight_pushButton_1_clicked()    //weight 由其它转换为公制
 {
     QString str;
     str = ui->weight_lineEdit_1->text();    //取文本框中的内容
@@ -651,7 +651,7 @@ void Widget::on_weight_pushButton_1_clicked()    //由其它转换为公制
 
 }
 
-void Widget::on_weight_pushButton_2_clicked()   //公制转换为其他类
+void Widget::on_weight_pushButton_2_clicked()   //weight 公制转换为其他类
 {
     QString str;
     str = ui->weight_lineEdit_2->text();
@@ -1021,8 +1021,7 @@ void Widget::on_weight_pushButton_2_clicked()   //公制转换为其他类
     }
 }
 
-
-void Widget::on_length_pushButton_1_clicked()
+void Widget::on_length_pushButton_1_clicked()//length
 {
     QString str;
     str = ui->length_lineEdit_1->text();
@@ -1344,7 +1343,7 @@ void Widget::on_length_pushButton_1_clicked()
     }
 }
 
-void Widget::on_length_pushButton_2_clicked()
+void Widget::on_length_pushButton_2_clicked()//length
 {
     QString str;
     str = ui->length_lineEdit_2->text();
@@ -1790,7 +1789,7 @@ void Widget::on_length_pushButton_2_clicked()
     }
 }
 
-void Widget::on_area_pushButton_1_clicked()
+void Widget::on_area_pushButton_1_clicked()//area
 {
     QString str;
     str = ui->area_lineEdit_1->text();
@@ -1984,7 +1983,7 @@ void Widget::on_area_pushButton_1_clicked()
     }
 }
 
-void Widget::on_area_pushButton_2_clicked()
+void Widget::on_area_pushButton_2_clicked()//area
 {
     QString str;
     str = ui->area_lineEdit_2->text();
@@ -2245,7 +2244,7 @@ void Widget::on_area_pushButton_2_clicked()
     }
 }
 
-void Widget::on_volume_pushButton_1_clicked()
+void Widget::on_volume_pushButton_1_clicked()//volume
 {
     QString str;
     str = ui->volume_lineEdit_1->text();
@@ -2421,7 +2420,7 @@ void Widget::on_volume_pushButton_1_clicked()
     }
 }
 
-void Widget::on_volume_pushButton_2_clicked()
+void Widget::on_volume_pushButton_2_clicked()//volume
 {
     QString str;
     str = ui->volume_lineEdit_2->text();
@@ -2641,7 +2640,7 @@ void Widget::on_volume_pushButton_2_clicked()
     }
 }
 
-void Widget::on_temperature_pushButton_1_clicked()
+void Widget::on_temperature_pushButton_1_clicked()//temperature
 {
     QString str;
     str = ui->temperature_lineEdit_1->text();
@@ -2665,7 +2664,7 @@ void Widget::on_temperature_pushButton_1_clicked()
     }
 }
 
-void Widget::on_temperature_pushButton_2_clicked()
+void Widget::on_temperature_pushButton_2_clicked()//temperature
 {
     QString str;
     str = ui->temperature_lineEdit_2->text();
@@ -2690,7 +2689,7 @@ void Widget::on_temperature_pushButton_2_clicked()
 
 }
 
-void Widget::on_money_pushButton_1_clicked()
+void Widget::on_money_pushButton_1_clicked()//money
 {
     QString str;
     str = ui->money_lineEdit_1->text();
@@ -3024,7 +3023,7 @@ void Widget::on_money_pushButton_1_clicked()
     }
 }
 
-void Widget::on_money_pushButton_2_clicked()
+void Widget::on_money_pushButton_2_clicked()//money
 {
     QString str;
     str = ui->money_lineEdit_2->text();
